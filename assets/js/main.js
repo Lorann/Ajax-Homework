@@ -1,4 +1,4 @@
-var employeesAPI = 'http://rest.vedinas.ro/employees';
+var employeesAPI = 'https://jsonplaceholder.typicode.com/comments?&_limit=3';
 
 function deserializeResponse(response) {
   return response.json();
